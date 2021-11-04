@@ -1,0 +1,24 @@
+{
+  "name": "climate-change-api",
+  "version": "1.0.0",
+  "description": "built with node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalingaPeiris/climate-change-API.git"
+  },
+  "author": "malinga peiris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalingaPeiris/climate-change-API/issues"
+  },
+  "homepage": "https://github.com/MalingaPeiris/climate-change-API#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  }
+}
