@@ -21,7 +21,7 @@ app.get("/news/", (req, res) => {
 
       $('a:contains("climate")', html).each(function () {
         const title = $(this).text();
-        const url = $("this").attr("href");
+        const url = $(this).attr("href");
         articles.push({ title: title, url: url });
       });
       res.json(articles);
